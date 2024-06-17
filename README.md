@@ -1,6 +1,6 @@
 # BlueDnd
 
-|**BlueDnd** é uma biblioteca JavaScript para facilitar a implementação de funcionalidades de arrastar e soltar em aplicações React.
+**BlueDnd** é uma biblioteca JavaScript para facilitar a implementação de funcionalidades de arrastar e soltar em aplicações React.
 
 ## Instalação
 
