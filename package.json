@@ -1,0 +1,38 @@
+{
+  "name": "bluednd",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A React library for drag and drop functionality.",
+  "keywords": [
+    "react",
+    "drag",
+    "drop",
+    "drag-and-drop"
+  ],
+  "type": "module",
+  "module": "./dist/bluednd",
+  "exports": {
+    ".": {
+      "import": "./dist/bluednd"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
