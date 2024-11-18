@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   build: {
     lib: {
-      entry: "lib/index.js",
+      entry: "index.js",
       name: "bluednd",
       fileName: "bluednd",
     },

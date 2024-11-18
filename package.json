@@ -10,10 +10,10 @@
     "drag-and-drop"
   ],
   "type": "module",
-  "module": "./dist/bluednd",
+  "module": "./index.js",
   "exports": {
     ".": {
-      "import": "./dist/bluednd"
+      "import": "./index.js"
     }
   },
   "files": [
