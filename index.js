@@ -1,2 +1,2 @@
-export { default as Draggable } from "./dist/Draggable";
-export { default as DropableArea } from "./dist/DropableArea";
+import { Draggable, DropableArea } from "./dist/bluednd";
+export { Draggable, DropableArea };
