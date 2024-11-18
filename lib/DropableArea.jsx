@@ -1,9 +1,10 @@
-import React from "react";
-
 function DropableArea({ children, onDragEnter, onDragLeave, onDragOver }) {
   function handleDrop(e) {
     e.preventDefault();
     let id = e.dataTransfer.getData("text");
+
+    if (id < 1) return;
+
     let el = document.querySelector(`#${id}`);
 
     const isNonDropable = e.target.closest(".non-dropable");
