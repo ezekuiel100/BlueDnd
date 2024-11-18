@@ -16,6 +16,9 @@
       "import": "./dist/bluednd"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -27,7 +30,6 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
-    "@types/react": "^18.2.66",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
